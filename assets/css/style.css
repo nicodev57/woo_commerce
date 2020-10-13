@@ -1,0 +1,77 @@
+/* ----**** Lib *****---- */
+/* ----**** Variables *****---- */
+/* ----**** Mixins *****---- */
+/* ----**** Layout *****---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* ----**** Body *****---- */
+body {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ----**** Header *****---- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 5.5rem;
+  width: calc(100% - 11rem);
+  height: 47px;
+}
+
+/* ----**** Main *****---- */
+/* ----**** Section *****---- */
+/* ----**** Div *****---- */
+.header__log {
+  display: flex;
+  width: 25.2rem;
+  justify-content: space-between;
+}
+
+/* ----**** Footer *****---- */
+/* ----**** Components *****---- */
+/* ----**** Title *****---- */
+/* ----**** Nav *****---- */
+.header__nav {
+  width: 52.6rem;
+  position: absolute;
+  left: 368px;
+}
+
+/* ----**** List *****---- */
+.nav__ul {
+  display: flex;
+  list-style: none;
+}
+
+/* ----**** Anchor *****---- */
+.link {
+  text-decoration: none;
+  color: #272D4E;
+}
+
+.nav_link {
+  margin-left: 3.8rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.started__link {
+  padding: 1.4rem 1.3rem;
+  background-color: #7854F7;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+/* ----**** Pgraphs *****---- */
+/* ----**** Button *****---- */
+/* ----**** Form *****---- */
+/* ----**** Image *****---- */
