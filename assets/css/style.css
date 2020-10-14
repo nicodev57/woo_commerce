@@ -14,32 +14,66 @@ html {
 
 /* ----**** Body *****---- */
 body {
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 /* ----**** Header *****---- */
 .header {
   display: flex;
   justify-content: space-between;
-  position: relative;
+  position: absolute;
+  z-index: 1;
   margin: 5.5rem;
+  margin-bottom: 0;
   width: calc(100% - 11rem);
   height: 47px;
 }
 
 /* ----**** Main *****---- */
+.main {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+}
+
 /* ----**** Section *****---- */
 /* ----**** Div *****---- */
 .header__log {
   display: flex;
   width: 25.2rem;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.main__info {
+  position: relative;
+  top: 27rem;
+  left: 18rem;
+}
+
+.info__links {
+  display: flex;
+  height: 5.4rem;
+}
+
+.links__link {
+  display: flex;
+  align-items: center;
+  margin-left: 0.8rem;
 }
 
 /* ----**** Footer *****---- */
 /* ----**** Components *****---- */
 /* ----**** Title *****---- */
+.Ptitle {
+  font-family: "Commissioner", sans-serif;
+  font-size: 5rem;
+  width: 50rem;
+  margin-bottom: 2rem;
+}
+
 /* ----**** Nav *****---- */
 .header__nav {
   width: 52.6rem;
@@ -71,7 +105,49 @@ body {
   border-radius: 5px;
 }
 
+.pgraph--link {
+  color: #299EF3;
+}
+
 /* ----**** Pgraphs *****---- */
+.pgraph {
+  color: #94A2B3;
+  width: 44rem;
+  margin-bottom: 2rem;
+}
+
+.links__pgraph {
+  margin-bottom: 0;
+}
+
 /* ----**** Button *****---- */
+.button:hover {
+  cursor: pointer;
+}
+
+.button--newStore {
+  padding: 2rem 4rem;
+  border-radius: 5rem;
+  border: none;
+  background-color: #7854F7;
+  color: white;
+  transition: 0.3s;
+}
+
+.button--newStore:hover {
+  background-color: #604ab1;
+  animation: 0.5s ease-in-out;
+}
+
 /* ----**** Form *****---- */
+.main_image {
+  flex: 1;
+  position: absolute;
+  top: 17.9rem;
+  left: 72rem;
+}
+
 /* ----**** Image *****---- */
+.image_hero {
+  width: 70rem;
+}
